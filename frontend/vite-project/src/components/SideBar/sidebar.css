@@ -1,0 +1,28 @@
+.sidebar {
+  /* position: fixed; */
+  /* background-color: red; */
+  /* width: 4.5vw; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 12vh; */
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* .question {
+  margin-bottom: 70px;
+} */
+
+.sidebar svg {
+  font-size: 1.5vw;
+  cursor: pointer;
+}

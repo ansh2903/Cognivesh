@@ -1,0 +1,92 @@
+.page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding: 1vw;
+  gap: 8vh;
+  overflow-y: auto;
+}
+
+.content {
+  background-color: #d9d9d9;
+  width: 90vw;
+  height: auto; /*Allow content to grow*/
+  min-height: 28vh;
+  border-radius: 20px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.content .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  width: 16vw;
+  height: 20vh;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.cards .cardImg {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+
+  img {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+  }
+  h4 {
+    font-weight: 500;
+  }
+}
+
+.cardImg .stockName .company {
+  font-size: 12px;
+  margin-top: 2px;
+  color: grey;
+}
+
+.cards .stockInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  padding-left: 40px;
+}
+
+.stockInfo h5 {
+  font-size: 0.9vw;
+  font-weight: 400;
+  color: #14f9a6;
+  text-transform: uppercase;
+}
+
+.news {
+  background-color: #d9d9d9;
+  width: 90vw;
+  min-height: 90vh; /* Ensure the news section has a minimum height */
+  margin-bottom: 2vh; /*Extra spacing at the bottom*/
+  flex-shrink: 0; /* Prevent it from shrinking */
+  border-radius: 20px;
+}
+
+.news .newsCard{
+  height: 50vh;
+  width: 20vw;
+  background-color: black;
+  border-radius: 20px;
+}
