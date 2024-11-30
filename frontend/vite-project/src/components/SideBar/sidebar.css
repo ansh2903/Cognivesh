@@ -10,6 +10,8 @@
   /* gap: 12vh; */
   padding-top: 20px;
   padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #eeeeee;
 }
 
 .control {
