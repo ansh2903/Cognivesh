@@ -75,18 +75,32 @@
   text-transform: uppercase;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
 .news {
   background-color: #d9d9d9;
   width: 90vw;
-  min-height: 90vh; /* Ensure the news section has a minimum height */
+  min-height: 50vh; /*Ensure the news section has a minimum height*/
   margin-bottom: 2vh; /*Extra spacing at the bottom*/
   flex-shrink: 0; /* Prevent it from shrinking */
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 12px;
 }
 
-.news .newsCard{
-  height: 50vh;
+.news .newsCard {
+  height: 38vh;
   width: 20vw;
   background-color: black;
   border-radius: 20px;
+  color: #14f9a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8vw;
+  padding: 20px;
 }
